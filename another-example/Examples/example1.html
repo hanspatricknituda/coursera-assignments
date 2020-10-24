@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col-lg-4 {
+            float:left;
+            margin-left: 15px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .row {
+            width: 100%;
+        }
+        @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+      float:left;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      width: 50%;
+      float:left;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      width: 100%;
+      float:left;
+    }
+  }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="container">
+            <div class = "col-lg-4 col-md-6 col-sm-12">
+                <h2>First title</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non obcaecati nostrum dolor repudiandae, fugit impedit in exercitationem earum mollitia officia! Natus vel consequuntur laudantium cumque, sit repudiandae tempora placeat corrupti? </p>
+            </div>
+            <div class = "col-lg-4 col-md-6 col-sm-12">
+                <h2>First title</h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quae assumenda doloribus quam! Blanditiis pariatur rerum atque eius qui, distinctio, placeat animi repellendus quam sit eligendi facilis illo modi exercitationem. </p>
+
+            </div>
+            <div class = "col-lg-4 col-md-6 col-sm-12">
+                <h2>First title</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos inventore minima reiciendis commodi odit voluptatem eaque quisquam repudiandae dolores ea incidunt, assumenda doloribus temporibus, minus, numquam quidem delectus ab! </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
